@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f8ff">
+    <meta
+      name="description"
+      content="Meet Pearl Mahlangu — software engineering student, cloud builder, peer tutor, and community tech leader."
+    >
+    <title>Pearl Mahlangu — Cloudy by nature, builder by choice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="#home" aria-label="Pearl Mahlangu, home">
+        <span class="wordmark-icon" aria-hidden="true">p.</span>
+        <span>pearl mahlangu</span>
+      </a>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+        aria-label="Open navigation menu"
+      >
+        <span></span><span></span>
+      </button>
+      <nav class="site-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="#about">My story</a>
+        <a href="#skills">Cloud & code</a>
+        <a href="#work">Projects</a>
+        <a href="#impact">Community</a>
+        <a class="nav-contact" href="#contact">Say hello <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section-wrap" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> SOFTWARE ENGINEER IN THE MAKING · SOUTH AFRICA</p>
+          <h1 id="hero-title">Cloudy by nature.<br><span>Builder by choice.</span></h1>
+          <p class="hero-intro">
+            Hey, I’m <strong>Pearl</strong> — a chemical engineering technologist turned
+            cloud &amp; software engineering student, building useful things for people
+            and the communities around me.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↘</span></a>
+            <a class="button button-quiet" href="#contact">Let’s connect <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-meta">
+            <span class="meta-sparkle" aria-hidden="true">✳</span>
+            <span>Also known as <strong>“usisi wase Google”</strong></span>
+          </div>
+        </div>
+
+        <div class="hero-art">
+          <div class="art-orbit orbit-one"></div>
+          <div class="art-orbit orbit-two"></div>
+          <div class="cloud cloud-back"></div>
+          <div class="cloud cloud-front"></div>
+          <div class="portrait-frame">
+            <img
+              class="portrait-photo"
+              src="Portfolio.jpeg"
+              alt="Portrait of Pearl Mahlangu"
+              width="1200"
+              height="1600"
+              fetchpriority="high"
+            >
+          </div>
+          <div class="float-label label-aws"><span aria-hidden="true">✦</span> AWS BUILDER</div>
+          <div class="float-label label-java"><span aria-hidden="true">☁</span> JAVA + CLOUD</div>
+          <div class="hero-caption"><span aria-hidden="true">✿</span> Dreaming up what’s next</div>
+          <div class="hero-badge"><span aria-hidden="true">☁</span><span>AWS builder<br>&amp; cloud engineer in the making</span></div>
+        </div>
+        <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+      </section>
+
+      <section class="about section-wrap section-pad" id="about" aria-labelledby="about-title">
+        <div class="section-heading">
+          <p class="eyebrow">01 — A LITTLE ABOUT ME</p>
+          <h2 id="about-title">Different field.<br><span>Same curious mind.</span></h2>
+        </div>
+        <div class="about-content">
+          <p class="about-lead">
+            I used to solve problems in chemical processes. Now I’m learning to solve
+            them with software, cloud architecture, and a lot of curiosity.
+          </p>
+          <p>
+            My journey from process engineering into tech taught me that the best
+            solutions start with understanding people and the systems around them.
+            Today, I’m studying software engineering at WeThinkCode_ while exploring
+            Java, AWS serverless, and Python automation.
+          </p>
+          <p>
+            Outside the code, I’m a peer tutor and founder of the AWS Student Builder
+            Group at WeThinkCode_. I care about making technology feel more welcoming —
+            and helping more people see themselves as builders, too.
+          </p>
+          <a class="text-link" href="#impact">A little more about my impact <span aria-hidden="true">↗</span></a>
+          <div class="about-note"><span aria-hidden="true">✳</span><span>Engineering mindset<br><strong>Community-first heart</strong></span></div>
+        </div>
+      </section>
+
+      <section class="skills section-pad" id="skills" aria-labelledby="skills-title">
+        <div class="section-wrap">
+          <div class="section-heading section-heading-row">
+            <div>
+              <p class="eyebrow">02 — THINGS I’M LEARNING &amp; BUILDING WITH</p>
+              <h2 id="skills-title">My little <span>cloud kit.</span></h2>
+            </div>
+            <p class="section-aside">Curiosity is my favourite tool.<br>The rest are getting sharper every day.</p>
+          </div>
+          <div class="skill-filters" role="group" aria-label="Filter skills by category">
+            <button class="filter-chip is-active" type="button" data-filter="all" aria-pressed="true">All skills</button>
+            <button class="filter-chip" type="button" data-filter="languages" aria-pressed="false">Languages</button>
+            <button class="filter-chip" type="button" data-filter="cloud" aria-pressed="false">Cloud</button>
+            <button class="filter-chip" type="button" data-filter="tools" aria-pressed="false">Tools &amp; frameworks</button>
+          </div>
+          <div class="skill-grid">
+            <article class="skill-card skill-card-blue" data-category="languages">
+              <span class="skill-icon" aria-hidden="true">&lt;/&gt;</span><h3>Languages</h3>
+              <p>Java 21 · Python · HTML5 · CSS3 · JavaScript</p>
+            </article>
+            <article class="skill-card skill-card-lilac" data-category="cloud">
+              <span class="skill-icon" aria-hidden="true">☁</span><h3>AWS &amp; serverless</h3>
+              <p>Lambda · DynamoDB · API Gateway · Cognito · SQS · SES</p>
+            </article>
+            <article class="skill-card skill-card-pink" data-category="tools">
+              <span class="skill-icon" aria-hidden="true">⌘</span><h3>Frameworks &amp; tools</h3>
+              <p>Spring Boot · Maven · Docker · Git · GitHub · GitLab</p>
+            </article>
+            <article class="skill-card skill-card-mint" data-category="tools">
+              <span class="skill-icon" aria-hidden="true">⌁</span><h3>My environment</h3>
+              <p>Linux · Ubuntu · WSL · VS Code · IntelliJ IDEA</p>
+            </article>
+          </div>
+          <p class="filter-status" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <section class="projects section-wrap section-pad" id="work" aria-labelledby="work-title">
+        <div class="section-heading section-heading-row">
+          <div>
+            <p class="eyebrow">03 — MADE WITH PURPOSE</p>
+            <h2 id="work-title">A couple of things<br><span>in the works.</span></h2>
+          </div>
+          <p class="section-aside">Real problems, thoughtful solutions,<br>and plenty of learning along the way.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-main">
+            <div class="project-topline"><span class="project-number">PROJECT 01</span><span class="project-status"><i></i> CLOUD-NATIVE</span></div>
+            <div class="project-illustration serverless-art" aria-hidden="true">
+              <span class="serverless-node node-one">API</span>
+              <span class="serverless-node node-two">λ</span>
+              <span class="serverless-node node-three">DB</span>
+              <span class="serverless-line line-one"></span><span class="serverless-line line-two"></span>
+              <span class="serverless-cloud">☁</span>
+            </div>
+            <p class="project-kicker">COMMUNITY · SERVERLESS · JAVA</p>
+            <h3>Saved2ServeConnect</h3>
+            <p class="project-description">
+              A production-ready, cloud-native backend for the Saved2Serve movement,
+              built to connect community impact with reliable, scalable technology.
+            </p>
+            <div class="tag-list" aria-label="Technologies used">
+              <span>Java 21</span><span>Spring Boot</span><span>AWS Lambda</span><span>DynamoDB</span><span>API Gateway</span>
+            </div>
+            <a class="project-link" href="https://github.com/search?q=Saved2ServeConnect&amp;type=repositories" target="_blank" rel="noreferrer">
+              Find Saved2ServeConnect on GitHub <span aria-hidden="true">↗</span>
+            </a>
+          </article>
+          <article class="project-card project-automation">
+            <div class="project-topline"><span class="project-number">PROJECT 02</span><span class="project-status project-status-lilac"><i></i> AUTOMATION</span></div>
+            <div class="project-illustration csv-art" aria-hidden="true">
+              <div class="csv-sheet"><span>ISSUE</span><span>MILESTONE</span><span>STATUS</span><b>Build feature</b><b>Sprint 01</b><b class="csv-check">✓</b><b>Fix bug</b><b>Sprint 02</b><b class="csv-check">✓</b></div>
+              <span class="python-orbit">Py</span>
+            </div>
+            <p class="project-kicker">PYTHON · AGILE · DEVELOPER TOOLING</p>
+            <h3>GitHub Issue Automator</h3>
+            <p class="project-description">
+              A reusable, CSV-driven Python script to bulk-create GitHub issues and
+              map them to milestones — making sprint setup a little smoother.
+            </p>
+            <div class="tag-list" aria-label="Technologies used">
+              <span>Python</span><span>GitHub API</span><span>CSV</span><span>Automation</span>
+            </div>
+            <a class="project-link" href="https://github.com/search?q=Saved2Serve+issue+automator&amp;type=repositories" target="_blank" rel="noreferrer">
+              Find the automator on GitHub <span aria-hidden="true">↗</span>
+            </a>
+          </article>
+        </div>
+        <p class="project-note"><span aria-hidden="true">✳</span> Project links open a GitHub search until the public repositories are linked.</p>
+      </section>
+
+      <section class="impact section-pad" id="impact" aria-labelledby="impact-title">
+        <div class="section-wrap">
+          <div class="section-heading">
+            <p class="eyebrow">04 — BUILDING BEYOND THE SCREEN</p>
+            <h2 id="impact-title">Tech is better <span>together.</span></h2>
+            <p class="impact-intro">The best part of building is bringing people along for the journey.</p>
+          </div>
+          <div class="impact-grid">
+            <article class="impact-card">
+              <span class="impact-icon impact-icon-blue" aria-hidden="true">✳</span>
+              <p class="impact-label">FOUNDER &amp; PROJECT LEAD</p>
+              <h3>AWS Student Builder Group</h3>
+              <p>Growing a community of student builders across Soweto, Rosebank, Springs, and Cape Town.</p>
+            </article>
+            <article class="impact-card">
+              <span class="impact-icon impact-icon-pink" aria-hidden="true">♡</span>
+              <p class="impact-label">FOUNDER &amp; PROJECT ADMINISTRATOR</p>
+              <h3>Saved2Serve Movement</h3>
+              <p>Helping a community initiative bring people together through practical, people-first impact.</p>
+            </article>
+            <article class="impact-card">
+              <span class="impact-icon impact-icon-lilac" aria-hidden="true">↗</span>
+              <p class="impact-label">PEER TUTOR · IDC PROGRAM</p>
+              <h3>Learn it. Share it.</h3>
+              <p>Supporting fellow software engineering students at WeThinkCode_ as they find their way through the work.</p>
+            </article>
+            <article class="impact-card">
+              <span class="impact-icon impact-icon-mint" aria-hidden="true">☼</span>
+              <p class="impact-label">COMMUNITY &amp; ADVOCACY</p>
+              <h3>Showing up &amp; speaking out</h3>
+              <p>Selected for the AWS She Builds Sub-Saharan Africa Mentee Spotlight in October 2026, and represented WeThinkCode_ at the Ascend Girls Network Career Expo at Nasrec.</p>
+            </article>
+          </div>
+          <div class="past-experience"><span>ALSO PART OF MY STORY</span> Process Operator <i>·</i> District Aide <i>·</i> Volunteer Project Administrator</div>
+        </div>
+      </section>
+
+      <section class="education section-wrap section-pad" id="education" aria-labelledby="education-title">
+        <div class="section-heading section-heading-row">
+          <div>
+            <p class="eyebrow">05 — ALWAYS A STUDENT</p>
+            <h2 id="education-title">A foundation for<br><span>what comes next.</span></h2>
+          </div>
+          <p class="section-aside">Different disciplines, one<br>ever-growing toolkit.</p>
+        </div>
+        <div class="education-list">
+          <details class="education-item" open>
+            <summary><span class="education-index">01</span><span class="education-title">Software engineering</span><span class="education-org">WeThinkCode_ · IDC Program</span><span class="education-date">Through 2027</span><span class="education-chevron" aria-hidden="true">⌄</span></summary>
+            <div class="education-detail">
+              <p>NQF Level 6 National Occupational Diploma in Software Engineering Technology. Campus training through January 2027; graduation expected October 2027.</p>
+              <p>Front-End Development Fundamentals Certification · SheCodes</p>
+            </div>
+          </details>
+          <details class="education-item">
+            <summary><span class="education-index">02</span><span class="education-title">Chemical engineering technology</span><span class="education-org">University of South Africa</span><span class="education-date">Honours</span><span class="education-chevron" aria-hidden="true">⌄</span></summary>
+            <div class="education-detail"><p>Bachelor of Technology Honours Degree in Chemical Engineering Technology.</p></div>
+          </details>
+          <details class="education-item">
+            <summary><span class="education-index">03</span><span class="education-title">Chemical engineering</span><span class="education-org">University of Johannesburg</span><span class="education-date">BTech + Diploma</span><span class="education-chevron" aria-hidden="true">⌄</span></summary>
+            <div class="education-detail">
+              <p>Bachelor of Technology Degree in Chemical Engineering.</p>
+              <p>National Diploma in Chemical Engineering.</p>
+            </div>
+          </details>
+          <details class="education-item">
+            <summary><span class="education-index">04</span><span class="education-title">Cloud &amp; AWS learning</span><span class="education-org">AWS Educate</span><span class="education-date">In progress</span><span class="education-chevron" aria-hidden="true">⌄</span></summary>
+            <div class="education-detail">
+              <p>AWS Educate Cloud Computing 101 Digital Badge.</p>
+              <p>AWS Educate Getting Started with Storage Badge.</p>
+              <p>Preparing for AWS Certified Cloud Practitioner.</p>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <section class="contact-section section-wrap" id="contact" aria-labelledby="contact-title">
+        <div class="contact-card">
+          <div class="contact-decoration contact-decoration-one" aria-hidden="true"></div>
+          <div class="contact-decoration contact-decoration-two" aria-hidden="true"></div>
+          <div class="contact-copy">
+            <p class="eyebrow">06 — YOUR TURN</p>
+            <h2 id="contact-title">Got a good idea?<br><span>Let’s build it.</span></h2>
+            <p>I’m always happy to talk cloud, community, or the next thing we can make a little better.</p>
+            <a class="button button-light" href="https://www.linkedin.com/search/results/people/?keywords=Lindokuhle%20Mbalenhle%20Pearl%20Mahlangu" target="_blank" rel="noreferrer">
+              Find me on LinkedIn <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <div class="contact-side">
+            <div class="contact-sparkle" aria-hidden="true">✳</div>
+            <p>OPEN TO<br><strong>learning, building<br>&amp; meaningful connections</strong></p>
+            <a href="https://github.com/LindokuhleMPMahlangu" target="_blank" rel="noreferrer">GitHub profile <span aria-hidden="true">↗</span></a>
+            <a href="mailto:pearl.mp.mahlangu@gmail.com">Email Pearl <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-wrap">
+      <a class="wordmark footer-wordmark" href="#home"><span class="wordmark-icon" aria-hidden="true">p.</span><span>pearl mahlangu</span></a>
+      <p>Made with curiosity, a little cloud magic &amp; lots of heart.</p>
+      <a href="#home" class="back-to-top">BACK TO TOP ↑</a>
+      <span class="footer-year">© <span id="current-year">2026</span> PEARL MAHLANGU</span>
+    </footer>
+  </body>
+</html>
